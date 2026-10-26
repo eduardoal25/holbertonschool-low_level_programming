@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main()
 {
-    // using puts to print hello world
     char* str1 = "Programming is like building a multilingual puzzle";
     puts(str1);
 
