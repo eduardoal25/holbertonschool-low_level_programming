@@ -2,10 +2,10 @@
 int main(void)
 {
 /*
-* char* str1 = "Programming is like building a multilingual puzzle";
-*  puts(str1);
+*char* str1 = "\"Programming is like building a multilingual puzzle";
+*puts(str1);    
 */
 puts("\"Programming is like building a multilingual puzzle");
 
-return int(0);
+return (0);
 }
