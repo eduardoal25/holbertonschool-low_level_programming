@@ -7,7 +7,7 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-char alphabet ='a'; /*variable to store the alphabet*/
+char alphabet = 'a'; /*variable to store the alphabet*/
 while (alphabet <= 'z')
 {
 putchar(alphabet);
