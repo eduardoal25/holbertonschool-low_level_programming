@@ -1,5 +1,11 @@
 #include <stdio.h>
-/*Description fot main function*/
+/**
+ * main - entry point
+ *
+ * Description: this function print a phrase
+ *
+ * Return: void
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
