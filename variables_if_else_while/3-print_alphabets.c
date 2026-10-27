@@ -8,28 +8,18 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-char alphabet = 'a'; /*variable to store the alphabet*/
-while (alphabet <= 'z')
+char lowercase = 'a';
+char uppercase = 'A';
+while (lowercase <= 'z')
 {
-putchar(alphabet);
-alphabet++;
+putchar(lowercase);
+lowercase++;
 }
-alphabet = 'a'; /*reset the alphabet variable to 'a'*/
-while (alphabet <= 'z')
+while (uppercase <= 'Z')
 {
-alphabet = toupper(alphabet);
-putchar(alphabet);
-alphabet++;
+putchar(uppercase);
+uppercase++;
 }
 putchar('\n');
-/**
- * for (char alphabet = 'a'; alphabet <= 'z'; alphabet++)
- *{
- *alphabet = toupper(alphabet);
- *putchar(alphabet);
- *}
- */
-
-
 return (0);
 }
