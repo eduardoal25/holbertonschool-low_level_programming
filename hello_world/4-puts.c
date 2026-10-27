@@ -1,4 +1,5 @@
 #include <stdio.h>
+/*Description fot main function*/
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
