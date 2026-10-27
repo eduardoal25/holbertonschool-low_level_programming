@@ -14,10 +14,22 @@ while (alphabet <= 'z')
 putchar(alphabet);
 alphabet++;
 }
-for (char alphabet = 'a'; alphabet <= 'z'; alphabet++)
+alphabet = 'a'; /*reset the alphabet variable to 'a'*/
+while (alphabet <= 'z')
 {
-    alphabet = toupper(alphabet);
-    putchar(alphabet);
+alphabet = toupper(alphabet);
+putchar(alphabet);
+alphabet++;
 }
+putchar('\n');
+/**
+ * for (char alphabet = 'a'; alphabet <= 'z'; alphabet++)
+ *{
+ *alphabet = toupper(alphabet);
+ *putchar(alphabet);
+ *}
+ */
+
+
 return (0);
 }
