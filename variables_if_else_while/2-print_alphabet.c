@@ -7,12 +7,12 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-char alphabet; /*variable to store the alphabet*/
-putchar(alphabet = 'a'); /*prints the alphabet*/
+char alphabet ='a'; /*variable to store the alphabet*/
 while (alphabet <= 'z')
 {
 putchar(alphabet);
 alphabet++;
 }
+putchar('\n');
 return (0);
 }
