@@ -2,8 +2,7 @@
 #include <time.h>
 /**
 * main - Entry point
-*if the number is less then zero then it's negative
-*if
+*
 * Return: Always 0 (Success)
 */
 /* betty style doc for function main goes there */
@@ -13,16 +12,16 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
-{
-printf("is positive\n");
+{ /*if the number is greater then zero*/
+printf("is positive\n"); /* then it prints is positve*/
 }
 else if (n == 0)
-{
-printf("You are old\n");
+{ /*If the number is equal to 0*/
+printf("Is zero\n"); /*It prints Zero*/
 }
 else
-{
-printf("is negative\n");
+{ /*It it is less than 0*/
+printf("is negative\n"); /*prints is negative*/
 }
 return (0);
 }
