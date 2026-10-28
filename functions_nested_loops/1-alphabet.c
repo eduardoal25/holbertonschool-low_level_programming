@@ -1,11 +1,11 @@
 #include "main.h"
 /**
-* main - Entry point
+* print_alphabet - Prints the alphabet in lowercase
 *
 * Return: Always 0 (Success)
 */
-/* betty style doc for function main goes there */
-int main(void)
+/* betty style doc for function print_alphabet goes there */
+int print_alphabet(void)
 {
 char alphabet = 'a'; /*variable to store the alphabet*/
 while (alphabet <= 'z')
