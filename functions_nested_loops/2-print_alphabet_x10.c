@@ -1,10 +1,8 @@
 #include "main.h"
 /**
-* print_alphabet - Prints the alphabet in lowercase
-*
+* void print_alphabet_x10 - Prints the alphabet in lowercase 10 times
 * Return: Always 0 (Success)
 */
-/* betty style doc for function print_alphabet_x10 goes there */
 void print_alphabet_x10(void)
 {
 int i = 0; /*variable to count the number of times the alphabet is printed*/
@@ -19,6 +17,5 @@ alphabet++;
 i++;
 }
 _putchar('\n');
-return (0);
 }
 
