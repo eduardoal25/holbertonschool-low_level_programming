@@ -16,7 +16,7 @@ _putchar(alphabet);
 alphabet++;
 }
 i++;
-}
 _putchar('\n');
+}
 }
 
