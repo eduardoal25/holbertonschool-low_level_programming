@@ -1,17 +1,21 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 /**
-* print_to_98 - prints all numbers from n to 98
-* @n: The starting number
+ * print_to_98 - prints all integers from n to 98
+ * @n: the starting integer
+ * Return: nothing (void function)
  */
 void print_to_98(int n)
 {
-while (n <= 98)
+if (n <= 98)
 {
-printf("%d", n);
-if (n != 98)
+for (; n <= 98; n++)
+printf("%d, ", n);
+}
+else
 {
-printf(", ");
+for (; n >= 98; n--)
+printf("%d, ", n);
 }
-}
+printf("98\n");
 }
